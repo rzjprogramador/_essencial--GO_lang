@@ -35,6 +35,11 @@ func main() {
 	x := 10 + 10
 	//------------------------------------
 
+	// # Constantes seus valores nao podem mudar , são imutaveis!
+	const variavelConstante = 1
+
+	//------------------------------------
+
 	fmt.Println(x)
 	fmt.Printf("valor da %v \n", variavel1)
 	fmt.Printf("valor da %v \n", variavel2)
@@ -42,6 +47,7 @@ func main() {
 	fmt.Printf("valor da %v \n", variavel4)
 	fmt.Printf("valor da %v \n", variavel5)
 	fmt.Printf("valor da %v \n", variavel6)
+	fmt.Printf("O valor da Constante é %v \n", variavelConstante)
 
 }
 
