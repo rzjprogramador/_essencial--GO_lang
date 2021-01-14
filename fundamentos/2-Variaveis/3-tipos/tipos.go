@@ -27,7 +27,7 @@ func main() {
 // %v  para saber valor , SEPARAR ASPAS DA VAR COM VIRGULA e coloca a variavel depois das aspas
 // %T para mostrar o tipo e a var que quer saber o tipo depois das aspas tbm
 // iMPORTANTE ::  SEPARAR ASPAS DA MENSAGEM COM AS VARIAVEIS UTILIZADAS COM VIRGULA
-// \n -- para pular linha
+// \n -- para pular linha.
 
 /*
 # OPERADOR CURTO
