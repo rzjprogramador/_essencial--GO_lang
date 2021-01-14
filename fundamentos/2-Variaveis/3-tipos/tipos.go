@@ -19,7 +19,48 @@ func main() {
 	fmt.Printf("CARACTERE -   %T  valor: %v \n", x4, x4)
 	fmt.Printf("LOGICO    -   %T  valor: %v \n", x5, x5)
 
+	fmt.Println("========== NUMEROS INTEIROS POR BYTES ===============")
+
+	// # alias apelidos para
+	// int32 >> alias >> rune
+	var numeroInt32 rune = -12456
+	fmt.Println(numeroInt32)
+
+	// uint8 >> alias >> byte
+	var numeroUint8 byte = 123
+	fmt.Println(numeroUint8)
+
+	// ===== RESUMO : ================================================
+	//OU VC DECLARA O TIPO ::: tipoVisibilidade nomevar tipo = "valor"
+	var nomeVar1 string = "Reinaldo"
+	fmt.Println(nomeVar1)
+
+	//OU FAZ POR INFERENCIA O GO INTERFERE CONFORME O VALOR ATRIBUIDO
+	nomeVar2 := 43
+	fmt.Println(nomeVar2)
+
 }
+
+/*
+	TIPOS NUMERICOS INTEIROS
+	-- 4 tipos de tipos inteiros separados  por quantidade de bytes que ocupam
+
+	#INT
+	--- int  == aceita numeros negativos / int sozinho ele usa de acordo com sua arquitetura , o GO infere de acordo com sua maquina
+	int8 >> ate o numero 123 >> alias >>
+	int16
+	int32 >> ate o numero 123 >> alias >> rune
+	int64
+
+	# UINT
+	--- uint == sem sinal -- nao funciona para numeros com sinal antes do numero exemplo numeros negativos -1 , -1000 --usa-se para evitar retorno negativo
+	--- uint8, uint16, uint32, uint64
+
+	# DECIMAIS
+	- FLOAT -- vc nao pode declarar só float tem que espeficar float32 ou float64 , mas para deixar por inferencia declarar com operador curto :=
+
+
+*/
 
 // :=  Operador que Declara e Atribui só funciona dentro do escopo/ blockcode
 // Printf -- mostra a mensagem formatada
@@ -60,4 +101,7 @@ func main() {
 - Tipos de dados compostos: são tipos compostos de tipos primitivos, e criados pelo usuário
     - slice, array, struct, map
 - O ato de definir, criar, estruturar tipos compostos chama-se composição.
+
+
+
 */
