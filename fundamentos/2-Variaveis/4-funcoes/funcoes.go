@@ -20,6 +20,7 @@ e podem ter como ingredientes parametros que se passados vc recebe e na invocaç
 - Funções são tipos
 - Podem ser guardadas em um variavel
 - Parametros podem ser funcoes tambem
+- Só coloca o tipo do retorno ao assinalar se a função tiver retorno
 - O retorno de uma função pode ser uma funcao tambem
 
 
