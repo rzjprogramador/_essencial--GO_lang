@@ -21,6 +21,7 @@ func main() {
 	// Instanciando struct usuario e recuperando poucos campos
 	u.nome = "Reinaldo"
 	u.idade = 43
+	u.endereco.longradouro = "Rua do Reinaldo"
 	fmt.Println(u)
 
 	// forma 2 de popular Instancia -- requer recuperar todos campos
