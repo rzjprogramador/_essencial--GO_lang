@@ -7,7 +7,7 @@ func soma(num1 int8, num2 int8) int8 {
 	return num1 + num2
 }
 
-// RECUOPERANDO NA FUNCAO MAIN APRA ORDAR O PROGRAMA
+// RECUPERANDO NA FUNCAO MAIN APRA ORDAR O PROGRAMA
 func main() {
 	somar := soma(10, 20)
 	fmt.Println(somar)
