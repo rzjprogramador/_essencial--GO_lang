@@ -4,6 +4,17 @@ import "fmt"
 
 func main() {
 
+	/*
+
+		=   --- ATRIBUIÇÃO
+		:=  --- ATRIBUIÇÃO COM INFERENCIA DE TIPO
+		:   --- ATRIBUIÇÃO OBJETO
+		->  ---
+		&   ---
+		*   ---
+
+	*/
+
 	// ARITMETICOS
 	soma := 1 + 2
 	subtracao := 1 - 2
@@ -49,7 +60,7 @@ func main() {
 
 	// UNARIOS ++ --
 	// Só agem em uma variavel por vez , quando vc quer encrementar ou decrementar o valor de uma var vc usa ele
-	
+
 	// encrementando em 1
 	idade := 10
 	idade++
@@ -80,11 +91,11 @@ func main() {
 
 }
 
-	/*
-	
-	 NÃO É POSSIVEL EM GO ::
-	 > --numero ou ++numero ===== Pré-fixado decrementar antes 
-	 > Operador ternario tbm nao funciona ainda estamos em 2021 
-	
-	
-	 */
+/*
+
+ NÃO É POSSIVEL EM GO ::
+ > --numero ou ++numero ===== Pré-fixado decrementar antes
+ > Operador ternario tbm nao funciona ainda estamos em 2021
+
+
+*/
