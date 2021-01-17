@@ -25,5 +25,7 @@ func main() {
 		PROTOTIPO IF INIT -- Inicializar var dentro do if
 		declaradaNovaVar := atribuindoValor; declaradaNovaVar > 0 {...faça}
 
+		ob: a variavel inicializada no if só serve apra o escopo do if é criada e usada somente la dentro
+
 	*/
 }
