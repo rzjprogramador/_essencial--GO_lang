@@ -26,6 +26,10 @@ func main() {
 
 	/*
 		// Com o valor interador declarado antes
+		//	Igual o while :
+		// Enquanto uma condicao for true --repete um bloco de codigo
+
+
 		i := 0
 
 		for i < 5 {
@@ -35,10 +39,6 @@ func main() {
 
 		}
 		fmt.Println("O valor de i ... é : ", i)
-		/*
-			Igual o while :
-			Enquanto uma condicao for true --repete um bloco de codigo
-
 
 
 	*/
