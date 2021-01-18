@@ -12,7 +12,8 @@ func main() {
 		time.Sleep(time.Second)
 	}
 
-	/*for -- REPETIDOR SEM AUTERAÇÕES -- COM CONTROLE DAS REPETIÇÕES
+	/*for -- 
+	UsoQuando: preciso de REPETIDOR SEM AUTERAÇÕES -- COM CONTROLE DAS REPETIÇÕES
 
 		Conceito :
 		for interador := 0; <condicao<interador < 6; <faça interador ++ icremenatr 1 a cada interacao >>>
