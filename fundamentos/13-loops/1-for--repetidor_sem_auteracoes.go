@@ -12,7 +12,7 @@ func main() {
 		time.Sleep(time.Second)
 	}
 
-	/*for -- REPETIDOR
+	/*for -- REPETIDOR SEM AUTERAÇÕES -- COM CONTROLE DAS REPETIÇÕES
 
 		Conceito :
 		for interador := 0; <condicao<interador < 6; <faça interador ++ icremenatr 1 a cada interacao >>>
@@ -27,25 +27,6 @@ func main() {
 			// incrementando de 1 em 1 usar no encrementador : ++
 			// incrementando de 2 em 2 usar no encrementador : += 2
 
-
-
-	*/
-
-	/*
-		// Com o valor interador declarado antes
-		//	Igual o while :
-		// Enquanto uma condicao for true --repete um bloco de codigo
-
-
-		i := 0
-
-		for i < 5 {
-			i++
-			fmt.Println("Incrementando o i")
-			time.Sleep(time.Second)
-
-		}
-		fmt.Println("O valor de i ... é : ", i)
 
 
 	*/
