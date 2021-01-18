@@ -12,6 +12,12 @@ CARACTERE  == string (Obs; Não tem char caractere unico no GO)
 > reflect.TypeOf(<varSlice>) ::: mostra o tipo de uma variavel
 > append(<varSlice>)  ::: acrescentar items ao slice
 
+# FUNÇÕES DE TEMPO
+.......................................
+TIME
+time.Sleep(time.Second) // Faz dar uma pausa de segundos tipo Durmir 1 segundo
+.......................................
+
 
 	====================================
 # FUNÇÕES CRIADORAS
