@@ -39,7 +39,7 @@ Use: Atraves de uma opção escolhida --Devolve um resultado
 
 func <nomeDaFuncao>(<parametroQueTrataráOsDados> <tipoDoParam>) <tipoDoRetorno>
 	switch>interruptor <parametroQueTrataráOsDados> {
-	case>caso param1:
+	case>caso <paramDeOpcaoQueTrazUmDadoDaFuncao>:
 		return "Retorne esta opção 1"
 
 	case>caso param2:
@@ -48,12 +48,12 @@ func <nomeDaFuncao>(<parametroQueTrataráOsDados> <tipoDoParam>) <tipoDoRetorno>
 	default:
 		return "Nenhuma das opções --CAIU NO DEFAULT"
 	}
-------------------------------------------------	
+------------------------------------------------
 
 ------------------------------------------------
 Montagem da Invocação que recuperara a funcao :::
 
-varReceptora := <funcaoCaso(<opcaodaFuncao>)>
+varReceptora := <funcaoCaso(<paramDeOpcaoQueTrazUmDadoDaFuncao>)>
 	mostrar(varReceptora)
 -------------------------------------------------
 */
