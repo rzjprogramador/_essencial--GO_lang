@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 
@@ -27,6 +30,12 @@ func main() {
 		fmt.Println(chave, valor)
 	}
 
+	// Loop Infinito se não colocar nada ou colocar true vai rodar infinito
+	for false {
+		fmt.Println("Executando Infinitamente")
+		time.Sleep(time.Second)
+	}
+
 }
 
 /*
@@ -34,7 +43,7 @@ RANGE == VARIEDADE
 
 Intera por cada item do slice ou array
 
-por padrao ja espera indice, nome
+por padrao ja espera indice, valor
 Senão quiser mostrar algum parametro colocar anderline ao assinalar oos params
 
 Não tem como interar sobre structs
