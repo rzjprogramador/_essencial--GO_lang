@@ -25,11 +25,20 @@ função make -- aloca um espaço na memoria para criar algo
 DECLARAÇÃO COMO É CONSTRUIDO O SLICE :	nomeSlice := make([])<<tipo>>, <quantidade-inicial>, <capacidade>
 
 ==============================
+ESCREVER
+fmt.Sprintf("ESCREVE TEXTOS E FORMATA VARIAVEL", variavel)
+fmt.Println("ESCREVE E PULA UMA LINHA")
 
-// %v  para saber valor , SEPARAR ASPAS DA VAR COM VIRGULA e coloca a variavel depois das aspas
-// %T para mostrar o tipo e a var que quer saber o tipo depois das aspas tbm
+===============================
+INTERPOLADOR DE VARIAVEIS
+	%s == string
+	%d == numero
+	%v  == valor
+	%T == tipo
+
 // iMPORTANTE ::  SEPARAR ASPAS DA MENSAGEM COM AS VARIAVEIS UTILIZADAS COM VIRGULA
-// \n -- para pular linha.
+
+\n -- para pular linha.
 
 ==============================
 
