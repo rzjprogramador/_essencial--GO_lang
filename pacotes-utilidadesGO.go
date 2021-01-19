@@ -30,7 +30,7 @@ fmt.Sprintf("ESCREVE TEXTOS E FORMATA VARIAVEL", variavel)
 fmt.Println("ESCREVE E PULA UMA LINHA")
 
 ===============================
-INTERPOLADOR DE VARIAVEIS
+INTERPOLADOR DE TIPOS DE VARIAVEIS
 	%s == string
 	%d == numero
 	%v  == valor
